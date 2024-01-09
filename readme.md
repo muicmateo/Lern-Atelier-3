@@ -6,9 +6,10 @@ Mateo Muic
 
 ## Grob-Planung
 
-1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
-2. Was hatten Sie sich am Ende von LP2 vorgenommen? Was war Ihr VBV? Wie könnten Sie diesen besonders gut üben?
-3. Was wäre ein geeignetes Projekt würd diese LP3?
+1.  In Modulen 319 und 431 war ich ziemlich gut. In beiden Modulen habe ich eine 5.  In Modul 162 habe ich ein 4er bekommen. Obwohl ich in M319 eine gute Note bekommen habe, bin ich überhaupt nicht zufrieden mit meinen Programmierkenntnissen. 
+2. Ich habe gesagt ich werde mir mehr Zeit nehmen, um nächste Schritte zu planen und ein einfacheres Projekt machen. Ich mache genau das. Ich werde ein simples und kurzes Projekt anfangen. 
+3. Ich habe mir überlegt Tic-Tac-Toe als eine Console App zu machen. Jedes Feld kann man mit nummern von 1-9 auswählen. Der aktuelle Spieler X oder O wird über dem Spielfeld angezeigt, sodass man weiss wer jetzt spielen sollte.
+
 
 ## 9.1.2024
 
