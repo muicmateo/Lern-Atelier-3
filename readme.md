@@ -17,14 +17,16 @@ Mateo Muic
 
 ## 16.1 und 23.1.2024
 
-- [ ] Erstes Arbeitspaket
-- [ ] ...
-- [ ] Viertes AP
+- [ ] ein 3x3 Array für das Spielfeld erstellen und in der Konsole das Spielfeld Anzeigen.
+- [ ] abwechselnde Spielerzüge implementieren.
+- [ ] Eine Kontrolle hinzufügen, die schaut, ob die gewählte Position gültig ist.
+- [ ] Überprüfung auf einen Gewinner nach jedem Zug hinzufügen.
 
 | estfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
 | 1              |                      |                |                |          |
-| ...            |                      |                |                |          |
+| 2              |                      |                |                |          |
+| 3              |                      |                |                |          |
 | 4              |                      |                |                |          |
 
 ✍️ Heute am 16.1 habe ich... (50-100 Wörter)
@@ -33,10 +35,9 @@ Mateo Muic
 
 ## 23.1.2024
 
-- [ ] Fünftes AP
-- [ ] ...
-
-- [ ] Achtes AP
+- [ ] Nach jedem Zug kontrollieren, ob das Spielfeld voll ist und es kein Gewinner gibt, was zu einem Unentschieden führt.
+- [ ] Play Again hinzufügen.
+- [ ] Leaderboard machen der zeigt wie viel Mal X oder O gewonnen hat.
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --------------- | -------------------- | -------------- | -------------- | -------- |
