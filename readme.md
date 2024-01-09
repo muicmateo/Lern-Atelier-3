@@ -22,14 +22,14 @@ Mateo Muic
 - [ ] Eine Kontrolle hinzufügen, die schaut, ob die gewählte Position gültig ist.
 - [ ] Überprüfung auf einen Gewinner nach jedem Zug hinzufügen.
 
-| estfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
 | 1              |                      |                |                |          |
 | 2              |                      |                |                |          |
 | 3              |                      |                |                |          |
 | 4              |                      |                |                |          |
 
-✍️ Heute am 16.1 habe ich... (50-100 Wörter)
+✍️ Heute habe ich vor allem ein Projekt gesucht. Ich wusste es sollte etwas ziemlich einfaches sein, weil die Lern-Periode-3 ist sehr kurz, aber auch weil ich möchte die C# Grundlagen repetieren und üben. Ich habe mich dann schlussendlich für ein Tic-Tac-Toe game entschieden (43 Wörter)
 
 ☝️ Vergessen Sie nicht, bis zum 16.1 einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
