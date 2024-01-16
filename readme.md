@@ -13,7 +13,7 @@ Mateo Muic
 
 ## 9.1.2024
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich vor allem ein Projekt gesucht. Ich wusste es sollte etwas ziemlich einfaches sein, weil die Lern-Periode-3 ist sehr kurz, aber auch weil ich möchte die C# Grundlagen repetieren und üben. Ich habe mich dann schlussendlich für ein Tic-Tac-Toe game entschieden (43 Wörter)
 
 ## 16.1 und 23.1.2024
 
@@ -29,7 +29,7 @@ Mateo Muic
 | 3              |                      |                |                |          |
 | 4              |                      |                |                |          |
 
-✍️ Heute habe ich vor allem ein Projekt gesucht. Ich wusste es sollte etwas ziemlich einfaches sein, weil die Lern-Periode-3 ist sehr kurz, aber auch weil ich möchte die C# Grundlagen repetieren und üben. Ich habe mich dann schlussendlich für ein Tic-Tac-Toe game entschieden (43 Wörter)
+✍️ Heute habe ich alle meine Arbeitspakete fertiggestellt und ein spielbares Tic Tac Toe in einer Konsolenanwendung erstellt. Ich habe ein gutes Tutorial gefunden. Ich wollte ein Spieler-gegen-Spieler-Tic-Tac-Toe machen, aber in dem Tutorial hat der Typ es Spieler-gegen-Computer gemacht und es war eigentlich besser, es so zu machen, weil der Code interessanter ist. (52 Wörter)
 
 ☝️ Vergessen Sie nicht, bis zum 16.1 einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
