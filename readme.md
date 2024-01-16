@@ -17,10 +17,10 @@ Mateo Muic
 
 ## 16.1 und 23.1.2024
 
-- [ ] ein 3x3 Array für das Spielfeld erstellen und in der Konsole das Spielfeld Anzeigen.
-- [ ] abwechselnde Spielerzüge implementieren.
-- [ ] Eine Kontrolle hinzufügen, die schaut, ob die gewählte Position gültig ist.
-- [ ] Überprüfung auf einen Gewinner nach jedem Zug hinzufügen.
+- [x] ein 3x3 Array für das Spielfeld erstellen und in der Konsole das Spielfeld Anzeigen.
+- [x] abwechselnde Spielerzüge implementieren.
+- [x] Eine Kontrolle hinzufügen, die schaut, ob die gewählte Position gültig ist.
+- [x] Überprüfung auf einen Gewinner nach jedem Zug hinzufügen.
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | -------------- | -------------------- | -------------- | -------------- | -------- |
