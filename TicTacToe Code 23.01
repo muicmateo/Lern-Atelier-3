@@ -1,0 +1,171 @@
+using System;
+using System.Collections.Generic;
+
+namespace TikTakToe
+{
+    internal class Program
+    {
+        static int[] board = new int[9];
+        
+
+        static void Main(string[] args)
+        {
+            do
+            {
+                PlayTicTacToe();
+
+              
+
+                Console.WriteLine("Möchtest du noch einmal spielen? (Ja/Nein)");
+            } while (Console.ReadLine().Equals("Ja", StringComparison.OrdinalIgnoreCase));
+
+            
+        }
+           
+        static void PlayTicTacToe()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                board[i] = 0;
+            }
+
+            int userTurn = -1;
+            int computerTurn = -1;
+            Random rand = new Random(); ;
+
+            while (checkForWinner() == 0 && Array.IndexOf(board, 0) != -1)
+            {
+                
+                try
+                {
+                    Console.WriteLine("Schreibe eine Nummer von 0 bis 8");
+                    userTurn = int.Parse(Console.ReadLine());
+
+                    // Überprüfe, ob die Zahl ausserhalb des erwarteten Bereichs liegt
+                    if (userTurn < 0 || userTurn > 8)
+                    {
+                        throw new ArgumentOutOfRangeException("Die Nummer muss zwischen 0 und 8 liegen.");
+                    }
+
+                    Console.WriteLine("Du hast die Nummer " + userTurn + " geschrieben");
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Ungültige Eingabe. Bitte gib eine gültige Zahl ein.");
+                    continue;  // Springe zur nächsten Iteration der Schleife
+                }
+                catch (ArgumentOutOfRangeException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    continue;  // Springe zur nächsten Iteration der Schleife
+                }
+
+
+                board[userTurn] = 1;
+
+                // Überprüfen, ob das Spielfeld voll ist und es keinen Gewinner gibt (Unentschieden)
+                if (checkForWinner() == 0 && Array.IndexOf(board, 0) == -1)
+                {
+                    Console.WriteLine("Unentschieden! Das Spielfeld ist voll.");
+                    break;
+                }
+
+                // dem Computer nicht erlauben, ein ungültiges Feld zu wählen
+                while (computerTurn == -1 || board[computerTurn] != 0)
+                {
+                    computerTurn = rand.Next(8);                    
+                    Console.WriteLine("Computer wählt " + computerTurn);
+                }
+                
+                board[computerTurn] = 2;
+                printBoard();
+            }
+            Console.WriteLine("Spieler " + checkForWinner() + " hat gewonnen");
+            
+        }
+
+
+
+        private static int checkForWinner()
+        {
+            // 0 zurückgeben, wenn niemand gewonnen hat. eine Spielernummer zurückgeben, wenn sie gewonnen haben.
+
+            // erste Zeile
+            if (board[0] == board[1] && board[1] == board[2])
+            {
+                return board[0];
+            }
+
+            // zweite Zeile
+            if (board[3] == board[4] && board[4] == board[5])
+            {
+                return board[3];
+            }
+
+            // dritte Zeile
+            if (board[6] == board[7] && board[7] == board[8])
+            {
+                return board[6];
+            }
+            
+            // erste Spalte
+            if (board[0] == board[3] && board[3] == board[6])
+            {
+                return board[0];
+            }
+            
+            // zweite Spalte
+            if (board[1] == board[4] && board[4] == board[7])
+            {
+                return board[1];
+            }
+
+            // dritte Spalte
+            if (board[2] == board[5] && board[5] == board[8])
+            {
+                return board[2];
+            }
+            
+            // erste Diagonale
+            if (board[0] == board[4] && board[4] == board[8])
+            {
+                return board[0];
+            }
+
+            // zweite Diag
+            if (board[2] == board[4] && board[4] == board[6])
+            {
+                return board[2];
+            }
+
+            return 0;
+        }
+        private static void printBoard()
+        {
+            for (int i = 0; i < 9; i++)
+            {
+               
+
+                // X oder O 
+                if (board[i] == 0)
+                {
+                    Console.Write(".");
+                }
+                if (board[i] == 1)
+                {
+                    Console.Write("X");
+                }
+                if (board[i] == 2)
+                {
+                    Console.Write("O");
+                }
+
+                // Neue Linie für jeden dritten Zeichen
+                if (i == 2 || i == 5 || i == 8)
+                {
+                    Console.WriteLine();
+                }
+            }
+        }
+    }
+}
