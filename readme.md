@@ -35,8 +35,8 @@ Mateo Muic
 
 ## 23.1.2024
 
-- [ ] Nach jedem Zug kontrollieren, ob das Spielfeld voll ist und es kein Gewinner gibt, was zu einem Unentschieden führt.
-- [ ] Play Again hinzufügen.
+- [x] Nach jedem Zug kontrollieren, ob das Spielfeld voll ist und es kein Gewinner gibt, was zu einem Unentschieden führt.
+- [x] Play Again hinzufügen.
 - [ ] Leaderboard machen der zeigt wie viel Mal X oder O gewonnen hat.
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
@@ -45,7 +45,7 @@ Mateo Muic
 | ...             |                      |                |                |          |
 | 8               |                      |                |                |          |
 
-✍️ Heute am 23.1 habe ich... (50-100 Wörter)
+✍️ Heute konnte ich 2 von 3 Arbeitspakete erledigen. Jetzt kann man auch Unentschieden gegen den Computer machen. Das Programm bricht jetzt nicht ab wenn man fertig ist mit einem Spiel oder wenn man eine zu grosse zahl eingibt. Am Ende jeder Runde wird man jetzt gefragt, ob man wieder Spielen möchte. 
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
