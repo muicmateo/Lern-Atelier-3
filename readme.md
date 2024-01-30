@@ -55,6 +55,6 @@ Mateo Muic
 
 ## Reflexion
 
-Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
+Ich bin sehr zufrieden mit dieser Lern Periode. Für mich war es viel besser, alle Arbeitspakete gleich am Anfang zu machen, weil ich das Gefühl hatte, dass ich mich mehr auf das Projekt konzentrieren konnte. Die letzten Lern Perioden waren vielleicht nicht die besten, weil ich nicht wusste, was als nächstes zu tun war und alle Arbeitspakete habe Ich ohne viel zu planen gemacht. Aber wenn ich ein paar Wochen im Voraus plane, scheint es besser zu funktionieren. Das werde ich in der nächsten Lernzeit auf jeden Fall ausprobieren. (85 Wörter).
 
-Verfassen Sie zusätzlich einen kurzen Abschnitt, in welchem Sie über die Länge der Projekte reflektieren: Fanden Sie die 9-wöchtige LP2 oder die 4-wöchige LP3 angenehmer? Was bedeutet das für Ihre Planung der zukünftigen LP?
+
