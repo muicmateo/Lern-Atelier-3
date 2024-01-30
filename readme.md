@@ -51,7 +51,7 @@ Mateo Muic
 
 ## 30.1.2024
 
-✍️ Heute am 23.1 habe ich... (50-100 Wörter)
+✍️ Nach dem ersten Teams Call habe ich versucht meinen Code zu bereinigen. Das Einzige, was ich eigentlich machte, war die meisten Kommentare zu löschen. Ich konnte nichts anderes finden, was ich hätte verbessern können. Weil ich noch viel Zeit übrig hatte bis nächsten Teams call, habe ich am Modul 117 weitergearbeitet. Nach den Zweiten Teams call, habe ich ein muicmateo.github.io repository gemacht. Ich bin aber immer noch nicht sicher was ich dort schreiben soll. (56 Wörter)
 
 ## Reflexion
 
